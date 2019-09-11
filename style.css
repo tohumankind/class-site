@@ -1,0 +1,118 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #e6e3db;
+
+}
+h1{
+  font-family: 'Trirong', serif;
+  font-weight:800;
+  font-size: 48px;
+}
+
+h2{
+  font-family: 'Trirong', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+}
+
+
+.header{
+  font-family: 'Kanit', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 20px;
+  color: #e6e3db;
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 25px 0px;
+  background-color: #fc624e;
+  box-shadow: 0px 10px 20px 10px #fc624e;
+
+
+}
+
+.header p {
+    margin: 0;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-right 1s linear infinite;
+    -webkit-animation: scroll-right 1s linear infinite;
+    animation: scroll-right 30s linear infinite;
+}
+
+@-moz-keyframes scroll-right {
+    0% {
+        -moz-transform: translateX(-100%);
+    }
+    100% {
+        -moz-transform: translateX(100%);
+    }
+}
+
+@-webkit-keyframes scroll-right {
+    0% {
+        -webkit-transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    100% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}
+.nav{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.nav-item{
+  padding: none;
+  margin: none;
+  border-bottom: 1.5px solid #fc624e;
+}
+.nav-item:hover{
+  background-color: #424e3c;
+  color: #cdd939;
+
+
+}
+.nav-item h2{
+  padding-left: 25px;
+  padding-bottom: 0px;
+  font-size: 100px;
+
+}
+
+.nav-item:hover h2{
+
+  font-style: italic;
+}
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat967.cur), auto !important;} /* End http://www.cursors-4u.com */
