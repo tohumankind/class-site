@@ -106,4 +106,17 @@ body{
     }
 }
 
+.sect-5{
+  display: block;
+  float: left;
+  height: 250px;
+  width: 33%;
+  padding: 50px 25px;
+  text-align: center;
+  color: white;
+
+
+
+}
+
 * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat967.cur), auto !important;}
