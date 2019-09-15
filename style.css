@@ -96,8 +96,9 @@ h2{
   padding: none;
   margin: none;
   border-bottom: 1.5px solid #fc624e;
+  height: 100%;
 }
-.nav-item:hover{
+.menu-link:hover{
   background-color: #424e3c;
   color: #cdd939;
 
@@ -115,4 +116,13 @@ h2{
   font-style: italic;
 }
 
-/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat967.cur), auto !important;} /* End http://www.cursors-4u.com */
+.menu-link {
+
+  text-decoration: none;
+  color: inherit;
+  padding: none;
+  margin: none;
+  width: inherit;
+  height: inherit;
+}
+ * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat967.cur), auto !important;}
