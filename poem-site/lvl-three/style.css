@@ -1,3 +1,8 @@
+body{
+  padding: none;
+  margin: none;
+
+}
 .menu-item{
   padding: 25px;
 }
@@ -10,6 +15,29 @@
   background-color: green;
 }
 
+.sect-2{
+  display: block;
+  float: left;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  padding: 50% 0;
+  margin: none;
+  background-color: orange;
+
+}
+
+.sect-3{
+  display: block;
+  float: right;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  padding: 50% 0;
+  margin: none;
+  background-color: red;
+
+}
 .poem-nav{
   position: fixed;
   top: 0px;
