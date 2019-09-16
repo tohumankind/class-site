@@ -1,3 +1,5 @@
+ * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat967.cur), auto !important;}
+
 body{
   margin: 0px;
   padding: 0px;
@@ -148,6 +150,7 @@ h2{
   border-bottom: 1.5px solid #fc624e;
   height: 100%;
 }
+
 .menu-link:hover{
   background-color: #424e3c;
   color: #cdd939;
@@ -175,4 +178,3 @@ h2{
   width: inherit;
   height: inherit;
 }
- * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat967.cur), auto !important;}

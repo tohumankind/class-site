@@ -1,0 +1,135 @@
+.menu-item{
+  padding: 25px;
+}
+
+.long-line{
+    font-family: 'Trirong', serif;
+    font-size: 75px;
+    height: 250px;
+    width: 10000px;
+    background-color: black;
+    border-style: solid;
+    border-top: 1px white;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
+
+}
+
+.long-line2{
+  font-family: 'Trirong', serif;
+  font-size: 75px;
+  height: 250px;
+  width: 10000px;
+  background-color: black;
+  border-style: solid;
+  border-top: 1px white;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+
+
+}
+.long-line2:hover{
+    font-family: 'Trirong', serif;
+    font-size: 75px;
+    height: 250px;
+    width: 10000px;
+    background-color: white;
+    border-style: solid;
+    border-top: 1px black;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-right 1s linear infinite;
+    -webkit-animation: scroll-right 1s linear infinite;
+    animation: scroll-right 30s linear infinite;
+}
+
+@-moz-keyframes scroll-right {
+    0% {
+        -moz-transform: translateX(-100%);
+    }
+    100% {
+        -moz-transform: translateX(100%);
+    }
+}
+
+@-webkit-keyframes scroll-right {
+    0% {
+        -webkit-transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    100% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}
+
+
+.long-line3{
+    font-family: 'Trirong', serif;
+    font-size: 75px;
+    height: 250px;
+    width: 400px;
+    background-color: black;
+    border-style: solid;
+    border-top: 1px white;
+    color: white;
+    display: flex;
+    align-items:  stretch;
+    padding-left: 25px;
+    overflow: scroll;
+
+}
+
+.long-line6{
+    font-family: 'Trirong', serif;
+    font-size: 75px;
+    height: 250px;
+    width: 10000px;
+    background-color: black;
+    border-style: solid;
+    border-top: 1px white;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
+
+}
+
+.long-line6:hover{
+    font-family: 'Trirong', serif;
+    font-size: 10px;
+    height: 50px;
+    width: 10000px;
+    background-color: yellow;
+    border-style: solid;
+    border-top: 1px white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
+
+}
