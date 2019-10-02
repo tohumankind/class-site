@@ -1,0 +1,96 @@
+body{
+  background-color: #555;
+}
+a{
+  text-decoration: none;
+}
+#backvid{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+.whole{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+
+}
+.half1{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.half2{
+  display: flex;
+  flex-direction: column;
+
+}
+.elip{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  height: 400px;
+  width: 800px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 50%;
+
+}
+
+#green{
+    border-color:#ccff00;
+    color:#ccff00
+}
+
+#green:hover{
+    background-color:#ccff00;
+    color: black;
+}
+
+#pink{
+    border-color:#fe1493;
+    color:#fe1493;
+}
+
+#pink:hover{
+    background-color: #fe1493;
+    color: black;
+}
+
+#purple{
+    border-color:#bc13fe;
+    color:#bc13fe;
+}
+
+#purple:hover{
+    background-color: #bc13fe;
+    color:black;
+}
+
+#orange{
+    border-color:#ffcf09;
+    color:#ffcf09;
+}
+
+#orange:hover{
+  background-color: #ffcf09;
+  color: black;
+
+}
+
+#recipe{
+  background-color: #ccff00;
+}
