@@ -1,0 +1,197 @@
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		background: #121314;
+	}
+
+	body > ul {
+		position: absolute;
+		top: 50%;
+		width: 800px;
+		height: 200px;
+		left: 50%;
+		margin-left: -400px;
+		margin-top: -130px;
+	}
+
+	ul > li {
+		width: 25%;
+		list-style-type: none;
+		position: absolute;
+		top: 0;
+		padding: 20px;
+		height: 200px;
+		opacity: 0;
+		padding-top: 40px;
+		text-align: center;
+		transition: 1s opacity;
+	}
+
+	p {
+		font-family: sans-serif;
+		font-size: 13px;
+    color: #646566;
+		line-height: 1.5em;
+	}
+
+	strong {
+    color: #fff;
+    font-weight: 700;
+		font-size: 60px;
+    line-height: 100px;
+	}
+
+	h1{
+		font-family: sans-serif;
+		text-transform: full-width;
+		font-size: 200px;
+		color: #fff;
+		padding: none;
+		margin: none;
+		line-height: 180px;
+		text-transform: lowercase;
+
+
+	}
+
+	h5{
+		font-family: sans-serif;
+		font-size: 100px;
+		text-transform: uppercase;
+		color: #646566;
+		margin: none;
+		padding: none;
+		line-height: 100px;
+	}
+
+	h3{
+		font-family: sans-serif;
+		font-size: 80px;
+		text-transform: lowercase;
+		text-decoration: none;
+		color: #39ff14;
+
+
+	}
+
+	h3:hover{
+		text-decoration: underline;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	.image{
+			height: 100%;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: -2;
+	}
+
+	.image img{
+		filter: grayscale(100%);
+		opacity: .3;
+		position: fixed;
+		top: 10%;
+		height: 80%;
+		width: 80%;
+	}
+
+	.active {
+		opacity: 1;
+		position: absolute;
+		z-index: 99999;
+	}
+
+	.active:hover p{
+		/* text-decoration: none; */
+		color:#39ff14;
+		cursor: pointer;
+	}
+
+	.define{
+			color: #39ff14;
+			text-decoration: none;
+			}
+
+	.number{
+		color: #fff;
+		font-weight: 700;
+		font-size:70px;
+	}
+
+	.marqueet{
+		width: 100%;
+		position: fixed;
+		top: 0;
+		margin-top: 15px;
+	  overflow: hidden;
+	  font-family: sans-serif;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 30px;
+
+
+	}
+
+	.marqueeb{
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		margin-bottom: 15px;
+		overflow: hidden;
+		font-family: sans-serif;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 30px;
+
+	}
+
+	.marqueeb:hover{
+		font-style: italic;
+		color: #39ff14;
+	}
+
+	.marqueet:hover{
+		font-style: italic;
+		color: #39ff14;
+	}
+
+	.implink{
+		color:#39ff14;
+
+
+	}
+	.implink:hover{
+		text-decoration: underline;
+
+	}
+	.footer{
+		font-family: sans-serif;
+		font-weight: 800;
+		font-size: 20px;
+		color: #fff;
+		position: fixed;
+		bottom: 0px;
+		height: 50px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 25px 0px;
+		background-color: #121314;
+		box-shadow: 0px -10px 20px 10px #121314;
+	}
+
+	.footer:hover{
+		color:  #121314;
+		background-color: #39ff14;
+		box-shadow: 0px -10px 20px 10px #39ff14;
+	}
