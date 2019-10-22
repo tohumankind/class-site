@@ -19,6 +19,17 @@ h2{
   font-size: 65px;
 }
 
+h3{
+  font-family: 'Trirong', serif;
+  font-weight: 400;
+  font-size: 65px;
+
+}
+p{
+  font-family: 'Trirong', serif;
+  font-weight: 100;
+}
+
 
 .header{
   font-family: 'Kanit', sans-serif;
@@ -149,6 +160,18 @@ h2{
   margin: none;
   border-bottom: 1.5px solid #fc624e;
   height: 100%;
+}
+
+.nav-item p{
+
+  font-size: 25px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.nav-item h3{
+  margin-left: 20px;
 }
 
 .menu-link:hover{
